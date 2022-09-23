@@ -16,8 +16,8 @@ from AtlasI2C import (
 	 AtlasI2C
 )
 
-channel_id = 1406461 # PUT CHANNEL ID HERE
-api_key  = 'HQ4AHFTZ028GR5TC' # PUT YOUR WRITE KEY HERE
+channel_id =  # PUT CHANNEL ID HERE
+api_key  = '' # PUT YOUR WRITE KEY HERE
 channel = thingspeak.Channel(id= channel_id, api_key=api_key) 
 alist = [0, 0, 0]
 
